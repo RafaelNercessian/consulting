@@ -1,0 +1,295 @@
+/*!
+Theme Name: Blazer
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: blazer
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+b {
+    font-weight: bold;
+}
+
+::selection {
+    background: var(--green-one);
+    color: white;
+}
+
+.red_background a::selection,
+.red_background abbr::selection,
+.red_background acronym::selection,
+.red_background address::selection,
+.red_background applet::selection,
+.red_background area::selection,
+.red_background article::selection,
+.red_background aside::selection,
+.red_background b::selection,
+.red_background base::selection,
+.red_background basefont::selection,
+.red_background bdi::selection,
+.red_background bdo::selection,
+.red_background big::selection,
+.red_background blockquote::selection,
+.red_background br::selection,
+.red_background button::selection,
+.red_background canvas::selection,
+.red_background caption::selection,
+.red_background center::selection,
+.red_background cite::selection,
+.red_background code::selection,
+.red_background col::selection,
+.red_background colgroup::selection,
+.red_background data::selection,
+.red_background datalist::selection,
+.red_background dd::selection,
+.red_background del::selection,
+.red_background details::selection,
+.red_background dfn::selection,
+.red_background dialog::selection,
+.red_background dir::selection,
+.red_background div::selection,
+.red_background dl::selection,
+.red_background dt::selection,
+.red_background em::selection,
+.red_background embed::selection,
+.red_background fieldset::selection,
+.red_background figcaption::selection,
+.red_background figure::selection,
+.red_background font::selection,
+.red_background footer::selection,
+.red_background form::selection,
+.red_background frame::selection,
+.red_background frameset::selection,
+.red_background h1::selection,
+.red_background h2::selection,
+.red_background h3::selection,
+.red_background h4::selection,
+.red_background h5::selection,
+.red_background h6::selection,
+.red_background header::selection,
+.red_background hr::selection,
+.red_background i::selection,
+.red_background iframe::selection,
+.red_background img::selection,
+.red_background input::selection,
+.red_background ins::selection,
+.red_background kbd::selection,
+.red_background label::selection,
+.red_background legend::selection,
+.red_background li::selection,
+.red_background link::selection,
+.red_background main::selection,
+.red_background map::selection,
+.red_background mark::selection,
+.red_background meter::selection,
+.red_background nav::selection,
+.red_background ol::selection,
+.red_background optgroup::selection,
+.red_background option::selection,
+.red_background output::selection,
+.red_background p::selection,
+.red_background param::selection,
+.red_background picture::selection,
+.red_background pre::selection,
+.red_background progress::selection,
+.red_background q::selection,
+.red_background rp::selection,
+.red_background rt::selection,
+.red_background ruby::selection,
+.red_background s::selection,
+.red_background samp::selection,
+.red_background section::selection,
+.red_background select::selection,
+.red_background small::selection,
+.red_background span::selection,
+.red_background strong::selection,
+.red_background sub::selection,
+.red_background summary::selection,
+.red_background sup::selection,
+.red_background table::selection,
+.red_background tbody::selection,
+.red_background td::selection,
+.red_background template::selection,
+.red_background textarea::selection,
+.red_background tfoot::selection,
+.red_background th::selection,
+.red_background thead::selection,
+.red_background time::selection,
+.red_background title::selection,
+.red_background tr::selection,
+.red_background track::selection,
+.red_background u::selection,
+.red_background ul::selection,
+.red_background var::selection,
+.red_background video::selection,
+.red_background wbr::selection {
+    background: black;
+    color: white;
+}
+
+
+:root {
+    --container: 165rem;
+    --breakpoint--large: 140rem;
+
+    --font-primary: 'LibreBaskerville', sans-serif;
+    --font-secondary: 'BebasNeue', sans-serif;
+
+    --green-one: #2C7B74;
+    --orange-one: #F59D2F;
+    --black-one: #0a1d1f;
+    --black-two: #0c2427;
+    --black-three: #311C1C;
+    --gray-one: #CECECE;
+    --gray-two: #A4A4A4;
+    --white-one: #FAFAFA;
+    --blue-one: #F1F3F4;
+    --blue-two: #03376C;
+}

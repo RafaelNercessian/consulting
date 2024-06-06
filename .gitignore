@@ -1,0 +1,7 @@
+# Core
+wp-admin/
+index.php
+wp-includes/
+wp-config.php
+wp-content/uploads/
+*.log
