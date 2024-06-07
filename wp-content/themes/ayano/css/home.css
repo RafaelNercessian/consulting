@@ -5,7 +5,7 @@ div.img-woman img{
 div.news .eael-grid-post-link{
     font-size: 2.4rem;
     line-height: 3.4rem;
-    color: var(--black-one);
+    color: var(--green-two);
     font-weight: 700;
     font-family: Satoshi, 'sans-serif';
 }
@@ -13,7 +13,11 @@ div.news .eael-grid-post-link{
 div.news .eael-grid-post-excerpt{
     font-size: 1.6rem;
     line-height: 2.4rem;
-    color: var(--black-two);
+    color: var(--green-three);
     font-weight: 400;
     font-family: Satoshi, 'sans-serif';
+}
+
+div.button a{
+    border-radius: 0;
 }

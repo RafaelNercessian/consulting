@@ -279,13 +279,12 @@ b {
     --container: 165rem;
     --breakpoint--large: 140rem;
 
-    --font-primary: 'LibreBaskerville', sans-serif;
-    --font-secondary: 'BebasNeue', sans-serif;
+    --font-primary: 'Satoshi', sans-serif;
 
     --green-one: #2C7B74;
+    --green-two: #0a1d1f;
+    --green-three: #0c2427;
     --orange-one: #F59D2F;
-    --black-one: #0a1d1f;
-    --black-two: #0c2427;
     --black-three: #311C1C;
     --gray-one: #CECECE;
     --gray-two: #A4A4A4;
