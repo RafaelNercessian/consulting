@@ -1,17 +1,56 @@
-.site-footer{
+.site-footer {
     background: var(--green-three);
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
     margin-top: 10rem;
 }
 
-.blocksectionfooter__section{
-    max-width: calc(100% - 14vw);
-    margin-left: auto;
-    margin-right: auto;
-    width: calc(100% - 4.8rem);
+.blocksectionfooter__h3 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: white;
+    font-weight: 600;
 }
 
-.blocksectionfooter__section img{
-    width: 17rem;
+.blocksectionfooter__section--inner {
+    max-width: calc(100% - 14vw);
+    width: calc(100% - 4.8rem);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 6rem;
+    justify-content: space-between;
+}
+
+.blocksectionfooter__section--inner--one {
+    display: flex;
+    gap: 3rem;
+}
+
+.blocksectionfooter__section--two {
+    display: flex;
+    gap: 3rem;
+}
+
+.blocksectionfooter__section--footer--inner {
+    max-width: calc(100% - 14vw);
+    width: calc(100% - 4.8rem);
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid var(--green-four);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blocksectionfooter__p,
+.blocksectionfooter__a,
+.blocksectionfooter__a:hover,
+.blocksectionfooter__a:focus {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+.blocksectionfooter__section--footer--inner {
+    display: flex;
+    gap: 2rem;
 }

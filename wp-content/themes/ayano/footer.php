@@ -12,19 +12,33 @@
 ?>
 
 <footer id="colophon" class="site-footer">
-    <section class="blocksectionfooter__section">
-        <?php the_custom_logo(); ?>
+    <section class="blocksectionfooter__section--inner">
+        <section class="blocksectionfooter__section--inner--one">
+            <section class="blocksectionfooter__section">
+                <?php the_custom_logo(); ?>
+            </section>
+            <section class="blocksectionfooter__section--two">
+                <div>
+                    <h3 class="blocksectionfooter__h3 satoshi">Company</h3>
+                </div>
+                <div>
+                    <h3 class="blocksectionfooter__h3 satoshi">Visas</h3>
+                </div>
+                <div>
+                    <h3 class="blocksectionfooter__h3 satoshi">News</h3>
+                </div>
+            </section>
+        </section>
+        <section>
+            <iframe src="https://www.instagram.com/p/BdJRABkDbXU/embed/" frameborder="0"></iframe>
+        </section>
     </section>
-    <section>
-        <div>
-            <h3>Company</h3>
-        </div>
-        <div>
-            <h3>Visas</h3>
-        </div>
-        <div>
-            <h3>Visas</h3>
-        </div>
+    <section class="blocksectionfooter__section--footer">
+        <section class="blocksectionfooter__section--footer--inner">
+            <p class="blocksectionfooter__p satoshi"><?= date('Y') ?> &copy; Ayano. All rights reserved.</p>
+            <a class="blocksectionfooter__a satoshi" href="/privacy-policy">Privacy Policy</a>
+            <a class="blocksectionfooter__a satoshi" href="/terms-conditions">Terms and conditions</a>
+        </section>
     </section>
 </footer><!-- #colophon -->
 </div><!-- #page -->
