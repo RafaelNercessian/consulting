@@ -26,7 +26,7 @@
                     affordable aged care across rest home, hospital and dementia care.</p>
                 <div class="blockfirstsectionheader__div--details--footer">
                     <a class="blockfirstsectionheader__a--contact blockfirstsectionheader__a--contact--footer" href="<?= home_url() ?>/contact">Contact</a>
-                    <a class="blockfirstsectionheader__a--info" href="#">Request an information pack</a>
+                    <a class="blockfirstsectionheader__a--info" href="#">Free Assessment</a>
                 </div>
             </section>
             <section class="blocksectionfooter__section--two">

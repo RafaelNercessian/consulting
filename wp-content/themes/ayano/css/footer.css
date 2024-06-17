@@ -59,7 +59,7 @@
     width: calc(100% - 4.8rem);
     margin-left: auto;
     margin-right: auto;
-    border-top: 1px solid var(--green-four);
+    border-top: 1px solid var(--blue-five);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -68,7 +68,7 @@
 .blocksectionfooter__a,
 .blocksectionfooter__a:hover,
 .blocksectionfooter__a:focus {
-    color: white;
+    color: var(--black-one);
     font-size: 1.4rem;
     line-height: 2.8rem;
 }
