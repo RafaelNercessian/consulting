@@ -32,7 +32,13 @@
 <div id="page" class="site">
     <header id="masthead" class="site-header">
         <section class="blockfirstsectionheader__section">
-            <?php the_custom_logo() ?>
+            <section class="blockfirstsectionheader__section--one">
+                <?php the_custom_logo() ?>
+                <div class="blockfirstsectionheader__div--details">
+                    <a class="blockfirstsectionheader__a--contact" href="<?= home_url() ?>/contact">Contact</a>
+                    <a class="blockfirstsectionheader__a--info" href="#">Request an information pack</a>
+                </div>
+            </section>
             <nav class="blockfirstsectionheader__div">
                 <ul>
                     <?php

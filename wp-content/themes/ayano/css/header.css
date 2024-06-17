@@ -7,7 +7,7 @@ header {
 }
 
 .blockfirstsectionheader__a--menu.active {
-    border-bottom: 1px
+    border-bottom: 1px solid var(--blue-four);
 }
 
 .blockfirstsectionheader__div--menu {
@@ -44,16 +44,55 @@ header {
     color: #007b8b;
     text-align: center;
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-style: normal;
     line-height: 2.4rem;
     text-decoration: none;
     margin-bottom: 3rem;
     font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+
+.blockfirstsectionheader__section--one {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.blockfirstsectionheader__a--contact,
+.blockfirstsectionheader__a--info {
+    display: block;
+    font-family: var(--font-primary);
+}
+
+.blockfirstsectionheader__a--contact {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--blue-five);
+    text-decoration: none;
+    text-align: right;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.blockfirstsectionheader__a--info {
+    background: var(--blue-five);
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+    padding: 1.1rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
 }
 
 .blockfirstsectionheader__a--menu:hover {
-    color: var(--green-two);
+    color: var(--blue-four);
 }
 
 .blockfirstsectionheader__section--menu {

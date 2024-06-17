@@ -288,6 +288,7 @@ b {
 
     --orange-one: #F59D2F;
 
+    --black-one: #212529;
     --black-three: #311C1C;
 
     --gray-one: #CECECE;
@@ -298,4 +299,7 @@ b {
     --blue-one: #F1F3F4;
     --blue-two: #03376C;
     --blue-three: #eff7f8;
+    --blue-four: #77B9C1;
+    --blue-five: #007b8b;
+    --blue-six: #39c0cc;
 }

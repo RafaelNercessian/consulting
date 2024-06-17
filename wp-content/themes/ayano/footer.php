@@ -17,6 +17,18 @@
             <section class="blocksectionfooter__section">
                 <?php the_custom_logo(); ?>
             </section>
+            <section>
+                <h3 class="blocksectionfooter__h3--content">Rest Home, Hospital, Dementia and Specialised Dementia
+                    Care</h3>
+                <p class="blocksectionfooter__p--content">With over 60 years of experience taking great care of older
+                    people, CHT
+                    Care Homes offer quality,
+                    affordable aged care across rest home, hospital and dementia care.</p>
+                <div class="blockfirstsectionheader__div--details--footer">
+                    <a class="blockfirstsectionheader__a--contact blockfirstsectionheader__a--contact--footer" href="<?= home_url() ?>/contact">Contact</a>
+                    <a class="blockfirstsectionheader__a--info" href="#">Request an information pack</a>
+                </div>
+            </section>
             <section class="blocksectionfooter__section--two">
                 <div>
                     <h3 class="blocksectionfooter__h3 satoshi">Company</h3>
@@ -28,9 +40,6 @@
                     <h3 class="blocksectionfooter__h3 satoshi">News</h3>
                 </div>
             </section>
-        </section>
-        <section>
-            <iframe src="https://www.instagram.com/p/BdJRABkDbXU/embed/" frameborder="0"></iframe>
         </section>
     </section>
     <section class="blocksectionfooter__section--footer">
