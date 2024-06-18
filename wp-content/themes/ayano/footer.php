@@ -29,17 +29,6 @@
                     <a class="blockfirstsectionheader__a--info" href="#">Free Assessment</a>
                 </div>
             </section>
-            <section class="blocksectionfooter__section--two">
-                <div>
-                    <h3 class="blocksectionfooter__h3 satoshi">Company</h3>
-                </div>
-                <div>
-                    <h3 class="blocksectionfooter__h3 satoshi">Visas</h3>
-                </div>
-                <div>
-                    <h3 class="blocksectionfooter__h3 satoshi">News</h3>
-                </div>
-            </section>
         </section>
     </section>
     <section class="blocksectionfooter__section--footer">

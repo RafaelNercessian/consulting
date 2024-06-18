@@ -189,10 +189,10 @@ function ayano_custom_css_js()
 {
     global $post;
     //Styles
-    wp_enqueue_style('satoshi', get_template_directory_uri() . '/css/satoshi.css', false);
-    wp_enqueue_style('header_css', get_template_directory_uri() . '/css/header.css', false);
-    wp_enqueue_style('footer_css', get_template_directory_uri() . '/css/footer.css', false);
-    wp_enqueue_script('header_js', get_template_directory_uri() . '/js/header.js', array('jquery'));
+    wp_enqueue_style('satoshi', get_template_directory_uri() . '/css/satoshi.css', false, '6.5.5');
+    wp_enqueue_style('header_css', get_template_directory_uri() . '/css/header.css', false, '6.5.5');
+    wp_enqueue_style('footer_css', get_template_directory_uri() . '/css/footer.css', false, '6.5.5');
+    wp_enqueue_script('header_js', get_template_directory_uri() . '/js/header.js', array('jquery'), '6.5.5');
 
     if (is_page('homepage') || is_front_page()) {
         wp_enqueue_style('home', get_template_directory_uri() . '/css/home.css', false);
